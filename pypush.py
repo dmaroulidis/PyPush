@@ -27,7 +27,7 @@ expire = 0
 priority = raw_input("Priority (-1, 0, 1, 2): ")
 
 if priority == "2":
-    retry = raw_input("How often the messsage will be sent? (In seconds) ")
+    retry = raw_input("How often the will message be sent? (In seconds) ")
     expire = raw_input("When will the message stop being sent? (In seconds) ")
     connect_send_getresponse()
 else:
